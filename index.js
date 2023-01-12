@@ -10,9 +10,10 @@ function writeCards(names, events){
     return thankYous;
 }
 
-function countDown(){
-    let down = 11
-    while (down > 0) {
-        console.log(--down);
+function countDown(down){
+   // let down = 10
+    while (down >= 0) {
+        console.log(down--);
 }
 }
+countDown(10)
